@@ -1,4 +1,4 @@
-FROM openjdk:18
-ADD ms-clientperson.jar ms-clientperson.jar
+FROM openjdk:11
+ADD ms-coustumer.jar ms-coustumer.jar
 EXPOSE 8074
-ENTRYPOINT ["java", "-jar", "/ms-clientperson.jar"]
+ENTRYPOINT ["java", "-jar", "/ms-coustumer.jar"]
